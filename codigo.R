@@ -36,3 +36,17 @@ summary(ncm)
 #código do município domicílio fiscal da empresa exportadora/importadora, quilograma líquido, valor dólar FOB (US$).
 imp <- read.table("IMP_2019_MUN.txt", sep=";", header=T)
 summary(imp)
+
+
+## Felipe (CAPES)
+capes <- read.csv2("dados.csv")
+str(capes)
+summary(capes)
+
+
+## Nara (IBAMA)
+#Relação de Autorizações de Exploração Florestal (Autex) cadastradas no sistema DOF, contendo dados sobre produtos, 
+#espécies, volumes autorizados e volumes remanescentes, entre outros. As séries de dados iniciam-se em 2007 e estão 
+#separadas por ano de emissão do DOF e por unidade federativa (UF) de origem.
+DOF <- read.csv2("2007.csv", encoding = "UTF-8")
+summary(DOF)
