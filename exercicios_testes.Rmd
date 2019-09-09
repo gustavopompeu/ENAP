@@ -1,0 +1,33 @@
+---
+title: "Exercício de Testes de Hipótese"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Esse exercício tem como objetivo praticar os conceitos referentes à testes de hipótese aplicados a um conjunto de dados sobre abastecimento de água e esgotamento sanitário. 
+
+* Faça a importação dos dados disponíveis em:
+
+https://raw.githubusercontent.com/gustavopompeu/ENAP/master/Agua_Esgoto.csv
+
+* Teste a hipótese nula de que a média da população urbana residente dos municípios com abastecimento de água no ano de 2012 foi maior do que 122 mil habitantes.
+
+* Entre as observações de abrangência Local, teste a hipótese nula de que a proporção da quantidade de municípios atendidos com esgotamento sanitário no ano de 2016 foi menor do que 70\%.
+
+* Para as observações do estado do Paraná, teste a hipótese nula de que a média da variável "G12B" é igual a 493000 habitantes.
+
+
+## Funções úteis
+
+pt()
+
+qt()
+
+sd()
+
+mean()
+
+is.na()

@@ -1,10 +1,11 @@
-setwd("D:/Gu/ENAP/Dados/Inferencia")
+setwd("D:/Gu/ENAP/Dados")
 
 ## Alexandre (INEP)
 enem <- read.csv2("MICRODADOS_ENEM_ESCOLA.csv")
 
 ## Samuel (SNS/MDR)
-agua_esgoto <- read.csv2("Agua_Esgoto.csv")
+agua_esgoto <- read.csv("Agua_Esgoto.csv")
+str(agua_esgoto)
 
 ## José Carlos (ME/SECINT)
 ## Renato (ME/SECEX)
@@ -22,3 +23,4 @@ summary(ncm)
 #código do município domicílio fiscal da empresa exportadora/importadora, quilograma líquido, valor dólar FOB (US$).
 imp <- read.table("IMP_2019_MUN.txt", sep=";", header=T)
 summary(imp)
+
