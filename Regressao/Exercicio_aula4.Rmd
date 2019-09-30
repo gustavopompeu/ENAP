@@ -8,7 +8,7 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Faça a leitura de dados de importação disponíveis no endereço :
+Faça a leitura dos dados referentes à abertura de custos operacionais das distribuidoras de energia elétrica disponíveis no endereço:
 
 https://raw.githubusercontent.com/gustavopompeu/ENAP/master/Regressao/Abertura_CO.csv
 
