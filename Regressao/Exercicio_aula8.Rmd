@@ -1,0 +1,26 @@
+---
+title: "Exercício de Aula"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Faça a importação dos dados em:
+
+"https://raw.githubusercontent.com/gustavopompeu/ENAP/master/Regressao/DADOS_2.csv"
+
+* Faça uma análise descritiva dos dados. 
+
+* Apresente um diagrama de dispersão entre as variáveis quantitativas.
+
+* Considerando como variável resposta a variável N_PRODUTOS ajuste um modelo de regressão usando as demais variáveis.
+
+* Utilizando a função step(), encontre os melhores modelos resultantes dos diferentes tipos de seleção de variáveis.
+
+* Escolha um modelo e verifique se há multicolinearidade entre as variáveis explicativas, utilizando a medida VIF.
+
+* Interprete os resultados do modelo escolhido.
+
+* Faça uma análise de diagnóstico do modelo escolhido.
